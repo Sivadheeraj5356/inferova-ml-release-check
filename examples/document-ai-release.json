@@ -1,0 +1,9 @@
+{
+  "productSurface": "parse",
+  "dataContract": "PDF in, structured JSON fields out; customer owns source documents and extracted data.",
+  "evalMetric": "Field extraction accuracy at 95% on the labeled review set.",
+  "latencyBudget": "P95 under 3 seconds for a 10-page document.",
+  "costBudget": "Under 2 USD per 1,000 pages at the current model tier.",
+  "rollbackPlan": "Disable the new extractor route and restore the prior parser within one deployment.",
+  "reviewer": "Document operations reviewer"
+}
