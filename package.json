@@ -1,0 +1,14 @@
+{
+  "name": "inferova-ml-release-check",
+  "version": "1.0.0",
+  "description": "Release readiness checks for enterprise ML workflow plans",
+  "type": "module",
+  "main": "src/release-check.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/document-ai-release.json"
+  },
+  "keywords": ["inferova", "enterprise-ai", "ml-release", "evaluation"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
